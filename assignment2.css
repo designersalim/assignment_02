@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+:root{
+    --primary-color: black;
+    --secondary-color: tomato;
+    --background-gradient: linear-gradient(180deg, rgb(0, 0, 0), rgb(36, 36, 36), rgb(0, 0, 0));
+    --background-color-grey: rgb(46, 46, 46);
+    --text-color-grey: rgba(255, 255, 255, 0.5);
+    --background-color-black: black;
+    --white-color: white;
+    --blur-color:  rgba(48, 48, 48, 0.1);
+}
+
+  .bg-light{
+    background: var(--background-gradient);
+    padding: 60px 10% 0% 10%;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+  .white-bold-font{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+
+
+  .brand-logo{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+
+  .nave-container{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-bar{
+    border: 1px solid var(--text-color-grey);
+    padding: 4px;
+    border-radius: 30px;
+  }
+
+  .nav-links{
+    list-style: none;
+    gap: 5px;
+  }
+  .nav-items>a, .nav-items-1>a{
+    text-decoration: none;
+    color: var(--white-color);
+  }
+
+  .nav-items-1{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    width: 125px;
+    padding: 10px;
+  }
+
+  .nav-items{
+    background-color: var(--background-color-black);
+    border-radius: 20px;
+    width: 125px;
+    padding: 10px;
+  }
+
+  .nav-links>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .banner-container{
+    max-width: 100%;
+    height: 810px;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner-content{
+    width: 520px;
+  }
+  .banner-heading{
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: var(--white-color);
+    margin-bottom: 30px;
+    line-height: 120%;
+  }
+
+  /* .stylish-font{
+
+  } */
+
+  .banner-subtitle{
+    color: var(--text-color-grey);
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .banner-image{
+    height: 775px;
+    width: 465px;
+    margin-top: -370px;
+  }
+
+  .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+  }
+
+  .circle-content> h3{
+    font-size: 1.5rem;
+  }
+
+  .banner-image-part> .banner-hover-card-1{
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--blur-color);
+    color: var(--white-color);
+    backdrop-filter: blur(10px);
+    gap: 10px;
+    width: 210px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: -105px;
+    margin-top: -185px;
+  }
+
+  .banner-image-part> .banner-hover-card-2{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: var(--blur-color);
+    color: var(--white-color);
+    backdrop-filter: blur(10px);
+    width: 210px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 305px;
+    margin-top: -510px;
+  }
+
+  .banner-card-2-heading{
+    font-size: 3rem;
+  }
+
+  .banner-card-subtitle{
+    color: var(--text-color-grey);
+  }
+
+  
+  
+  .banner-button{
+    margin-top: 0px;
+  }
+
+  .orange-button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 40px;
+    border: none;
+    margin-right: 30px;
+  }
+
+  .org-btn-link{
+    text-decoration: none;
+    color: var(--white-color);
+  }
+
+  .white-button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-right: 30px;
+    background-color: transparent;
+  }
+  .wht-btn-link{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+  main{
+    background-color: black;
+  }
+
+  /* Habit-section-styles */
+
+  .habit-section{
+    color: white;
+    padding: 10%;
+  }
+
+  .habit-images-cont{
+    justify-content: center;
+  }
+
+  .image-container{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .images-cont-title{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .images-cont-subtitle{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .radius-images{
+    border-radius: 50%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .image-ctn-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .image-ctn-subheading{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  /* Run-card-Section-Styles */
+
+  .card-container{
+    background-color: var(--background-color-black);
+    padding: 0 10% 10% 10%;
+  }
+
+  .card-content-part{
+    background-color: var(--background-color-grey);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .card-caption{
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .card-text{
+    font-size: 1.5rem;
+    color: var(--text-color-grey);
+    margin-right: 30px;
+  }
+
+  .card-button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .card-image{
+    width: 30%;
+    border-radius: 20px;
+  }
+
+  /* BMI-Section-Styles */
+
+  .bmi-section{
+    padding: 10%;
+    background-color: var(--background-color-grey);
+  }
+  
+  .bmi-cap{
+    font-size: 3rem;
+    color: white;
+  }
+
+
+  .bmi-table{
+    color: white;
+    font-size: 1rem;
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+
+  td, th{
+    border: 1px solid white;
+    padding: 10px;
+  }
+
+  td{
+    color: var(--text-color-grey);
+  }
+
+  .bmi-calculator{
+    margin-left: 30px;
+  }
+
+  .bmi-cal-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .bmi-cal-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color-grey);
+  }
+
+  .height-input, .weight-input{
+    height: 60px;
+    width: 45%;
+    background-color: var(--text-color-grey);
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+
+  /* Team Section Styles */
+
+  .team-section{
+    background-color: var(--background-color-black);
+    padding: 5% 10% 5% 10%;
+  }
+
+  .team-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .team-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color-grey);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .image-container-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    gap: 25px;
+    background-color: var(--background-color-grey);
+    border-radius: 10px;
+  }
+
+  .team-image{
+    width: 470px;
+    height: 410px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+  }
+
+  .image-title{
+    margin-top: -50px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .image-subtitle{
+    margin-left: 10px;
+    color: var(--text-color-grey);
+  }
+
+  /* Footer-Section-Styles */
+
+  .footer-section{
+    background-color: var(--background-color-grey);
+    padding: 5% 10% 0% 10%;
+  }
+
+  .footer-content{
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  hr{
+    margin-top: 50px;
+    border: 1px solid var(--text-color-grey);
+  }
+  
+  .company-heading{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+
+  .footer-caption{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    padding: 10px;
+  }
+
+  .down-nav-title, .company-introduction, .down-nav-items{
+    color: white;
+  }
