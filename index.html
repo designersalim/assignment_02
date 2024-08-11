@@ -7,52 +7,53 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body class="inter-font">
-    <header class="bg-light">
+    <div class="header-content-part bg-light"">
+        <header>
 
-        <!-- nav-section -->
-
-        <nav class="nave-container display-flex">
-            <a class="brand-logo" href=""><h3>Fitness</h3></a>
-            <div class="nav-bar">
-                <ul class="nav-links display-flex white-bold-font">
-                    <li class="nav-items-1"><a class="" href="">Home</a></li>
-                    <li class="nav-items"><a class="" href="">Service</a></li>
-                    <li class="nav-items"><a class="" href="">Contact</a></li>
-                    <li class="nav-items"><a class="" href="">About</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <!-- banner-section -->
-
-        <div class="banner-container display-flex">
-            <div class="banner-content">
-                <h3 class="banner-heading">Get body in <br> <span class="dancing-script">shape</span> & stay <br> healthy</h3>
-                <p class="banner-subtitle">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                <button class="orange-button banner-button"><a class="org-btn-link" href="">Join Club Now!</a></button>
-                <button class="white-button banner-button"><a class="wht-btn-link" href="">Download App</a></button>
-            </div>
-            <div class="banner-image-part">
-                <div>
-                    <img class="banner-image" src="B10A2-versatile-ui/images/Images 2.png" alt="">
-                </div> 
-                <div class="banner-hover-card-1 display-flex">
-                    <div class="circle"></div>
-                    <div class="circle-content">
-                        <h3>350+</h3>
-                        <p class="banner-card-subtitle">Video tutorial</p>
-                    </div>
+            <!-- nav-section -->
+    
+            <nav class="nave-container display-flex">
+                <a class="brand-logo" href=""><h3>Fitness</h3></a>
+                <div class="nav-bar">
+                    <ul class="nav-links display-flex white-bold-font">
+                        <li class="nav-items-1"><a class="" href="">Home</a></li>
+                        <li class="nav-items"><a class="" href="">Service</a></li>
+                        <li class="nav-items"><a class="" href="">Contact</a></li>
+                        <li class="nav-items"><a class="" href="">About</a></li>
+                    </ul>
                 </div>
-                <div class="banner-hover-card-2 display-flex">
-                        <div>
-                        <h3 class="banner-card-2-heading">500+</h3>
-                        <p class="banner-card-subtitle">Free Workout Videos</p>
+            </nav>
+    
+            <!-- banner-section -->
+    
+            <div class="banner-container display-flex">
+                <div class="banner-content">
+                    <h3 class="banner-heading">Get body in <br> <span class="dancing-script">shape</span> & stay <br> healthy</h3>
+                    <p class="banner-subtitle">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                    <button class="orange-button banner-button"><a class="org-btn-link" href="">Join Club Now!</a></button>
+                    <button class="white-button banner-button"><a class="wht-btn-link" href="">Download App</a></button>
+                </div>
+                <div class="right-image-design">
+                        <img class="banner-image" src="B10A2-versatile-ui/images/Images 2.png" alt="">
+                        <div class="banner-hover-card-1 display-flex">
+                            <div class="circle"></div>
+                            <div class="circle-content">
+                                <h3>350+</h3>
+                                <p class="banner-card-subtitle">Video tutorial</p>
+                            </div>
                         </div>
-                </div>
+                        <div class="banner-hover-card-2 display-flex">
+                            <div>
+                            <h3 class="banner-card-2-heading">500+</h3>
+                            <p class="banner-card-subtitle">Free Workout Videos</p>
+                            </div>
+                    </div>
+                </div> 
+                    
             </div>
-        </div>
-        
-    </header>
+            
+        </header>
+    </div>
 
     <main>
 
@@ -100,89 +101,102 @@
 
         <!-- bmi-section -->
 
-        <section class="bmi-section display-flex">
-            <div class="bmi-chart">
-                <h3 class="bmi-cap">BMI Calculator Chart</h3>
-                <table class="bmi-table">
-                    <thead>
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Below 18.5</td>
-                            <td>Underweight</td>
-                        </tr>
-                        <tr>
-                            <td>18.5 - 24.9</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>25.0 - 29.9</td>
-                            <td>Overweight</td>
-                        </tr>
-                        <tr>
-                            <td>30.0 - and Above</td>
-                            <td>Obese</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="bmi-calculator">
-                <h1 class="bmi-cal-title">Calculate your BMI</h1>
-                <p class="bmi-cal-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                <div class="button-section">
-                    <input type="text" name="" id="" class="input-data" placeholder="Height/cm">
-                    <input type="text" name="" id="" class="input-data" placeholder="Weight/kg">
-                    <input type="text" name="" id="" class="input-data" placeholder="Age">
-                    <div class="select-container-1">
-                        <select name="" id="Sex" class="select-container">
-                            <option value="Sex" class="select-Sex">Sex</option>
-                            <option value="male" class="select-Sex">Male</option>
-                            <option value="female" class="select-Sex">Female</option>
-                            <option value="others" class="select-Sex">Others</option>
-                        </select>
+        <section class="bmi-section">
+            <div class="bmi-contents-container display-flex">
+                <div class="bmi-chart">
+                    <h3 class="bmi-cap">BMI Calculator Chart</h3>
+                    <table class="bmi-table">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bmi-calculator">
+                    <h1 class="bmi-cal-title">Calculate your BMI</h1>
+                    <p class="bmi-cal-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    <div class="button-section flex-wrap">
+                        <input type="text" name="" id="height" class="input-data" placeholder="Height/cm">
+                        <input type="text" name="" id="weight" class="input-data" placeholder="Weight/kg">
+                        <input type="text" name="" id="age" class="input-data" placeholder="Age">
+                        <div class="select-container-1">
+                            <select name="" id="Sex" class="sex-container">
+                                <option value="Sex" class="select-Sex">Sex</option>
+                                <option value="male" class="select-Sex">Male</option>
+                                <option value="female" class="select-Sex">Female</option>
+                                <option value="others" class="select-Sex">Others</option>
+                            </select>
+                        </div>
+                        <div class="select-container-2">
+                            <select name="" id="activity-factor" class="activity-factor">
+                                <option value="activity-factor" class="select-Sex">Select an activity factor</option>
+                                <option value="male" class="select-Sex">Male</option>
+                                <option value="female" class="select-Sex">Female</option>
+                                <option value="others" class="select-Sex">Others</option>
+                            </select>
+                        </div>
+                        <button class="card-button-2"><a href="">Calculate Now</a></button>
                     </div>
                 </div>
-        </section>
-
-        <!-- team-section -->
-
-        <section class="team-section">
-            <h3 class="team-title">Meet Our Team</h3>
-            <p class="team-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
-            <div class="image-container-section">
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer1.png" alt="">
-                    <h4 class="image-title">Jerome Bell</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
                 </div>
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer2.png" alt="">
-                    <h4 class="image-title">Cameron Williamson</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
-                </div>
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer3.png" alt="">
-                    <h4 class="image-title">Darrell Steward</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
-                </div>
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer4.png" alt="">
-                    <h4 class="image-title">Dianne Russell</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
-                </div>
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer5.png" alt="">
-                    <h4 class="image-title">Cody Fisher</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
-                </div>
-                <div class="image-container-2">
-                    <img class="team-image" src="B10A2-versatile-ui/images/trainer6.png" alt="">
-                    <h4 class="image-title">Theresa Webb</h4>
-                    <h5 class="image-subtitle">Trainer</h5>
+            </section>
+    
+            <!-- team-section -->
+    
+            <section class="team-section">
+                <h3 class="team-title">Meet Our Team</h3>
+                <p class="team-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+                <div class="image-container-section">
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer1.png" alt="">
+                        <h4 class="image-title">Jerome Bell</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer2.png" alt="">
+                        <h4 class="image-title">Cameron Williamson</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer3.png" alt="">
+                        <h4 class="image-title">Darrell Steward</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer4.png" alt="">
+                        <h4 class="image-title">Dianne Russell</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer5.png" alt="">
+                        <h4 class="image-title">Cody Fisher</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="team-image" src="B10A2-versatile-ui/images/trainer6.png" alt="">
+                        <h4 class="image-title">Theresa Webb</h4>
+                        <h5 class="image-subtitle">Trainer</h5>
+                    </div>
                 </div>
             </div>
         </section>
