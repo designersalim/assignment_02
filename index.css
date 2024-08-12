@@ -55,11 +55,17 @@
 
 /* Nav css start here */
 
+.fa-solid{
+  display: none;
+  position: absolute;
+}
+
   .brand-logo{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 2.8rem;
     font-weight: 900;
+    font-style: italic;
   }
 
   .nave-container{
@@ -108,7 +114,6 @@
 
   .banner-container{
     max-width: 1400px;
-    height: 715px;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
@@ -117,7 +122,7 @@
     width: 520px;
   }
   .banner-heading{
-    font-size: 4.5rem;
+    font-size: 4.8rem;
     font-weight: 900;
     color: var(--white-color);
     margin-bottom: 30px;
@@ -138,7 +143,7 @@
   }
 
   .banner-image{
-    height: 720px;
+    width: 100%;
     margin-top:0 auto;
   }
 
@@ -149,10 +154,6 @@
     background-color: var(--secondary-color);
   }
 
-  .circle-content> h3{
-    font-size: 1.5rem;
-  }
-
   .banner-hover-card-1{
     position: absolute;
     border: 1.5px solid rgba(255, 255, 255, 0.3);
@@ -160,13 +161,13 @@
     color: var(--white-color);
     backdrop-filter: blur(10px);
     gap: 10px;
-    width: 210px;
+    width: 205px;
     height: 100px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin-left: -105px;
-    margin-top: -185px;
+    margin-top: -170px;
   }
 
   .banner-hover-card-2{
@@ -175,21 +176,22 @@
     background-color: var(--blur-color);
     color: var(--white-color);
     backdrop-filter: blur(10px);
-    width: 210px;
+    width: 205px;
     height: 100px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin-left: 305px;
-    margin-top: -510px;
+    margin-left: 250px;
+    margin-top: -450px;
   }
 
   .banner-card-2-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .banner-card-subtitle{
     color: var(--text-color-grey);
+    font-size: 1rem;
   }
 
   
@@ -199,7 +201,7 @@
   }
 
   .orange-button{
-    width: 200px;
+    width: 40%;
     height: 50px;
     padding: 10px;
     font-size: 1rem;
@@ -215,7 +217,7 @@
   }
 
   .white-button{
-    width: 200px;
+    width: 40%;
     height: 50px;
     padding: 10px;
     font-size: 1rem;
@@ -319,7 +321,7 @@
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.3px;
-    width: 480px;
+    width: 60%;
     color: var(--text-color-grey);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -343,8 +345,8 @@
   }
 
   .card-image{
-    width: 486px;
-    height: 415px;
+    width: 40%;
+    height: auto;
     object-fit: none;
     object-position: 70% -190px;
     scale: 100%;
@@ -517,15 +519,18 @@
     margin-bottom: 30px;
   }
 
+  .team-image-background{
+    background-color: var(--background-color-grey);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+  }
+
   .image-container-section{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    width: 100%;
     gap: 25px;
     justify-content: center;
-    background-color: var(--background-color-grey);
-    border-radius: 20px;
   }
 
   .image-container-2{
@@ -559,12 +564,40 @@
 
   .footer-section{
     background-color: var(--background-color-grey);
-    padding: 5% 10% 0% 10%;
+  }
+
+  .footer-all-contents{
+    max-width: 1400px;
+    margin: 0 auto;
   }
 
   .footer-content{
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+  }
+
+  .down-nav-items{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .down-nav-items>a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .down-nav-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .company-introduction{
+    line-height: 200%;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 300;
   }
 
   hr{
@@ -572,11 +605,12 @@
     border: 1px solid var(--text-color-grey);
   }
   
-  .company-heading{
+  .company-heading>a{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 2.8rem;
-    font-weight: 900;
+    font-weight: 700;
+    font-style: italic;
   }
 
   .footer-caption{
@@ -588,4 +622,145 @@
 
   .down-nav-title, .company-introduction, .down-nav-items{
     color: white;
+  }
+
+
+
+
+
+  @media screen and (max-width: 576px) {
+    *{
+      max-width: 100%;
+      margin: 0%;
+    }
+    .fa-solid{
+      color: white;
+      display: block;
+      font-size: 1.5rem;
+      position: relative;
+    }
+
+    .nav-bar{
+      display: none;
+    }
+    .nav-links{
+      display: none;
+    }
+    .banner-content{
+      width: 100%;
+      margin-top: 50px;
+    }
+    .circle{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: var(--secondary-color);
+    }
+    .banner-heading{
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: var(--white-color);
+      margin-bottom: 30px;
+      line-height: 120%;
+    }
+    .banner-card-2-heading{
+      font-size: 2rem;
+    }
+    .banner-card-subtitle{
+      font-size: 1rem;
+    }
+    .banner-hover-card-1{
+      position: absolute;
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
+      background-color: var(--blur-color);
+      color: var(--white-color);
+      backdrop-filter: blur(10px);
+      gap: 10px;
+      width: 190px;
+      height: 90px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin-left: -50px;
+      margin-top: -270px;
+    }
+  
+    .banner-hover-card-2{
+      position: absolute;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: var(--blur-color);
+      color: var(--white-color);
+      backdrop-filter: blur(10px);
+      width: 190px;
+      height: 90px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin-left: 190px;
+      margin-top: -500px;
+    }
+  
+    .card-content-part, .bmi-contents-container, .image-container, .banner-container{
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    .habit-images-cont{
+      margin-top: 20px;
+    }
+    .card-container{
+      width: 95%;
+      margin: 0 auto;
+    }
+    .card-text{
+      width: 100%;
+    }
+    .card-image{
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .bmi-section{
+      padding: 20px;
+    }
+
+    .bmi-chart{
+      width: 100%;
+    }
+
+    .bmi-calculator{
+      width: 100%;
+    }
+
+    input[type=text]{
+      width: 48.25%;
+    }
+
+    .image-container-section{
+      display: flex;
+      width: 100%;
+      gap: 25px;
+      justify-content: center;
+      background-color: var(--background-color-grey);
+      border-radius: 20px;
+    }
+    .team-image-background{
+      width: 90%;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .team-image{
+      width: 540px;
+      height: 420px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 15px;
+    }
+
+    .footer-content{
+      flex-direction: column;
+      gap: 80px;
+      padding: 20px;
+    }
+    
   }
