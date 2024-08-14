@@ -635,20 +635,14 @@
       max-width: 100%;
       margin: 0;
     }
-    body{
-      max-width: 576px;
-    }
+
     .fa-solid{
       color: white;
       display: block;
       font-size: 1.5rem;
       position: relative;
     }
-
-    .nav-bar{
-      display: none;
-    }
-    .nav-links{
+    .nav-bar, .nav-links{
       display: none;
     }
     .banner-content{
@@ -717,7 +711,7 @@
       width: 95%;
       margin: 0 auto;
     }
-    .card-text{
+    .card-text, .bmi-chart, .bmi-calculator{
       width: 100%;
     }
     .card-image{
@@ -727,14 +721,6 @@
 
     .bmi-section{
       padding: 20px;
-    }
-
-    .bmi-chart{
-      width: 100%;
-    }
-
-    .bmi-calculator{
-      width: 100%;
     }
 
     input[type=text]{
