@@ -58,6 +58,8 @@
 .fa-solid{
   display: none;
   height: 0;
+  position: absolute;
+  opacity: 0;
 }
 
   .brand-logo{
