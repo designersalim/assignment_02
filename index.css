@@ -57,7 +57,7 @@
 
 .fa-solid{
   display: none;
-  position: absolute;
+  height: 0;
 }
 
   .brand-logo{
@@ -631,7 +631,10 @@
   @media screen and (max-width: 576px) {
     *{
       max-width: 100%;
-      margin: 0%;
+      margin: 0;
+    }
+    body{
+      max-width: 576px;
     }
     .fa-solid{
       color: white;
@@ -733,7 +736,7 @@
     }
 
     input[type=text]{
-      width: 48.25%;
+      width: calc((100%/2) - 11px);
     }
 
     .image-container-section{
